@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+@font-face {
+	font-family: CalSans;
+	font-display: swap;
+	src: url("../fonts/CalSans-SemiBold.woff2") format("woff2"), url("../fonts/CalSans-SemiBold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	min-width: 320px;
+}
+body {
+	line-height: 1.2;
+	font-family: Poppins;
+	color: #666666;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+h1 {
+    text-transform: uppercase;
+}
+.wrapper {   
+	overflow: hidden;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.page_title {
+    margin-bottom: 8vh;
+}
+.page_body {
+    display: flex;
+    gap: 35px;
+}
+.page_content {
+    padding: 20px 20px 20px 30px;
+    flex: 0 0 55%;
+}
+.page_sub_title {
+    margin-bottom: 6vh;    
+}
+.page_sub_title span {
+    text-transform: uppercase;
+}
+.page_body_content p:last-child {
+   margin-left: 22%;
+   margin-top: 9vh;   
+}
+.page_foto {
+    flex: 0 0 40%;  
+    padding-top: 10vh;  
+}
+.page_foto img {
+   margin-left: 16%;
+}
